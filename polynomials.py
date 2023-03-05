@@ -29,6 +29,7 @@ def y_value(x,coeff):
 
 roots = np.roots(colist)
 print(roots)
+print(np.poly1d(colist))
 colist.reverse()
 
 x = np.linspace(-100,100)
