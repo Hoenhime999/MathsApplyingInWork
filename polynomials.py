@@ -10,7 +10,7 @@ colist = []
 while True:
     co = input('Cofficient: ')
     try:
-        colist.append(int(co))
+        colist.append(float(co))
     except ValueError:
         if co == 'done':
             break
